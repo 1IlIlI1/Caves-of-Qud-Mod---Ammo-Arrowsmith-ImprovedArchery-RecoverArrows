@@ -16,9 +16,6 @@ namespace XRL.World.Parts
 		public string Amount = "1"; //Applied AFTER chance. Is converted to a string when used, allowing for dice rolls and random amounts per creation. 
 
 		public Cats_ArrowRecycle()
-		{
-			base.Name = "Cats_ArrowRecycle"; //Make sure you change all the class and part names in your own version to prevent compatibility issues, even if you don't change anything else.
-		}
 
 		public override void Register(GameObject Object)
 		{
